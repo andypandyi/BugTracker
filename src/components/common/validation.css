@@ -1,0 +1,10 @@
+
+.has-error .field
+{
+    border:solid 1px Red;
+}
+
+.has-error .input
+{
+    color:Red;
+}

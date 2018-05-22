@@ -1,0 +1,28 @@
+{
+  "name": "bugtrack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Iles",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "browserify": "^16.2.2",
+    "create-react-class": "^15.6.3",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-open": "^3.0.1",
+    "jquery": "^3.3.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

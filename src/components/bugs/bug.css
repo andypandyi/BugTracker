@@ -1,0 +1,44 @@
+
+.bug .card
+{
+    white-space:nowrap;
+    text-overflow:clip;
+    overflow-x:hidden;
+}
+
+.bug .card-header
+{
+    padding-left:2px;
+    margin-left:2px;
+}
+
+.bug i
+{
+   color:white;
+   margin-left:3px;
+   margin-right:5px;
+}
+
+.statustext
+{
+   color:White;
+}
+
+.bug .card
+{
+    border:solid 1px Gray;
+    margin-bottom:10px;
+}
+
+
+.bug .card-body
+{
+    padding:3px;
+    margin:8px;
+}
+
+
+.bug .fa-user, .bug .fa-bug
+{
+    color:lightslategray;
+}

@@ -1,0 +1,21 @@
+
+.bugtracker i
+{
+   color:Red;
+   font-size:150%;
+}
+
+.bugtracker .nav
+{
+    margin-left:30px;
+}
+
+.bugtracker .nav-item
+{
+    margin-left:10px;
+}
+
+.bugtracker .nav-item a
+{
+    color:DarkGray;
+}
