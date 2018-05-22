@@ -1,8 +1,14 @@
 var React = require('react');
 var ReactDom = require('react-dom');
+var PropTypes = require('prop-types');
 
 var createReactClass = require('create-react-class');
 var DateTimeDisplay = createReactClass({
+    propTypes : {
+        name : PropTypes.string.isRequired,
+        label : PropTypes.string.isRequired,
+        value : PropTypes.string.isRequired,
+    },
 
     leftPad : function(value)
     {
@@ -39,6 +45,7 @@ var DateTimeDisplay = createReactClass({
                 <label htmlFor={this.props.name}>{this.props.label}:</label>
                 <div className="field">
                     <input type="text" 
+                        readOnly="true"
                         className="form-control" 
                         placeholder={this.props.label} 
                         name={this.props.name}

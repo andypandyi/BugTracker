@@ -12,6 +12,7 @@ var PeoplePage = require('./people/peoplePage');
 var createReactClass = require('create-react-class');
 var RouteHandler = createReactClass({
 
+    // main navigation mechanism  ..
     render: function()
     {
         return (

@@ -1,4 +1,5 @@
 var React = require('react');
+var PropTypes = require('prop-types');
 
 var BugStatus = require('../../api/bugs/bugDefs');
 var PeopleApi = require('../../api/people/peopleApi');
@@ -10,6 +11,15 @@ var DateTimeDisplay = require('../common/dateTimeDisplay');
 
 var createReactClass = require('create-react-class');
 var BugDetailsPage = createReactClass({
+    propTypes : {
+        bug : PropTypes.object.isRequired,
+        onChangeTitle : PropTypes.func.isRequired,
+        onChangeDescription : PropTypes.func.isRequired,
+        onChangeStatus : PropTypes.func.isRequired,
+        onChangeAssigned : PropTypes.func.isRequired,
+        onSave : PropTypes.func.isRequired,
+        errors : PropTypes.array.isRequired
+    },
 
     // TODO .. this is pretty hacky .. need to improve and replace ..
     getAllPeopleAsOptions : function() 

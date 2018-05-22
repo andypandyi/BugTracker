@@ -1,9 +1,17 @@
 var React = require('react');
+var PropTypes = require('prop-types');
 
 var TextInput = require('../common/textInput');
 
 var createReactClass = require('create-react-class');
 var PersonDetailsPage = createReactClass({
+    propTypes : {
+        person : PropTypes.object.isRequired,
+        onChangeForename : PropTypes.func.isRequired,
+        onChangeSurname : PropTypes.func.isRequired,
+        errors : PropTypes.array.isRequired,
+        onSave : PropTypes.func.isRequired,
+    },
 
     render : function()
     {

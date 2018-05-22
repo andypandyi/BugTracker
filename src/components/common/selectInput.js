@@ -1,8 +1,18 @@
 var React = require('react');
 var ReactDom = require('react-dom');
+var PropTypes = require('prop-types');
 
 var createReactClass = require('create-react-class');
 var SelectInput = createReactClass({
+    propTypes : {
+        name : PropTypes.string.isRequired,
+        label : PropTypes.string.isRequired,
+        value : PropTypes.number.isRequired,
+        onChange : PropTypes.func.isRequired,
+        options : PropTypes.array.isRequired,
+        error : PropTypes.string.isRequired
+    },
+
     render : function()
     {
        var wrapperClass = 'form-group';

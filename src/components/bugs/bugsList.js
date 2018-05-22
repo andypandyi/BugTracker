@@ -2,9 +2,13 @@
 
 var React = require('react');
 var BugThumbnail = require('./bugThumbnail');
+var PropTypes = require('prop-types');
 
 var createReactClass = require('create-react-class');
 var BugsList = createReactClass({
+    propTypes : {
+        bug : PropTypes.object.isRequired
+    },
 
     render: function()
     {

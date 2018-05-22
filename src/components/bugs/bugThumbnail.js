@@ -3,6 +3,7 @@
 var React = require('react');
 var ReactRouterDom = require('react-router-dom');
 var Link = ReactRouterDom.Link;
+var PropTypes = require('prop-types');
 
 var isNullOrUndefined = require('util').isNullOrUndefined;
 
@@ -11,6 +12,9 @@ var PeopleApi = require('../../api/people/peopleApi');
 
 var createReactClass = require('create-react-class');
 var BugThumbnail = createReactClass({
+    propTypes : {
+        bug : PropTypes.object.isRequired
+    },
 
     getStatusDetail : function(bug)
     {

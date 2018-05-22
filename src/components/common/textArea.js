@@ -1,8 +1,17 @@
 var React = require('react');
 var ReactDom = require('react-dom');
+var PropTypes = require('prop-types');
 
 var createReactClass = require('create-react-class');
 var TextArea = createReactClass({
+    propTypes : {
+        name : PropTypes.string.isRequired,
+        label : PropTypes.string.isRequired,
+        value : PropTypes.string.isRequired,
+        onChange : PropTypes.func.isRequired,
+        error : PropTypes.string.isRequired
+    },
+
     render : function()
     {
        var wrapperClass = 'form-group';
