@@ -7,7 +7,7 @@ var PropTypes = require('prop-types');
 var createReactClass = require('create-react-class');
 var BugsList = createReactClass({
     propTypes : {
-        bug : PropTypes.object.isRequired
+        bugs : PropTypes.array.isRequired
     },
 
     render: function()
