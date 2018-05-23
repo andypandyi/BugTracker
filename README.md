@@ -1,8 +1,8 @@
-#BugTracker
+# BugTracker
 
-##Install
+## Install
 
-###Prerequisites
+### Prerequisites
 
 BugTracker is written in React.
 To run the technical test you have to have Node and NPM installed.
@@ -17,7 +17,7 @@ To run the technical test you have to have Node and NPM installed.
    `npm install`
 
 
-###Run
+### Run
 
 Gulp has been used to bundle and transform the React JSX code.
 The gulpfile.js file supplied should setup all the necessary steps to copy the source files to the dist output folder.
@@ -27,7 +27,7 @@ NB - NPM will install gulp as part of the overall install.
 However, it if hasn't altered the system path, Gulp can be found in node_modules\.bin\gulp.exe
 
 
-##Overview
+## Overview
 
 BugTracker is my implementation for the Aire Logic Technical test.
 I chose to write the client-side requirements in React.
@@ -38,7 +38,7 @@ experience and lots of example libraries/components.
 All the same .. I did it enjoy it very much and I'm pretty happy with the result.
 
 
-##Limitations
+## Limitations
 
 The requirements document stated that whilst not time limited, a sample time of 3-4 hours should be aimed for.
 In all honesty (and lightheatedly) .. I think God would struggle at 3-4 hours but to an extent that might be down to intepretation of the requirements
@@ -51,7 +51,7 @@ As a result .. the application is still usable and users can be added and bugs s
 However, the data is held only in state and refreshing the application will lose all the mocked data.
 
 
-##Improvements
+## Improvements
 
 The application works well but given the time constraints, unsurprisingly, some improvements could be made.
 As mentioned, the application does not connect up to a real API and database.
