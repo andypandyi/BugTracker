@@ -8,8 +8,7 @@ BugTracker is written in React.
 To run the technical test you have to have Node and NPM installed.
 
 1. Download the source from GitHub at:
-
-<https://github.com/andypandyi/BugTracker>
+   <https://github.com/andypandyi/BugTracker>
 
 2. Move to the cloned repository folder
 
@@ -24,7 +23,7 @@ The gulpfile.js file supplied should setup all the necessary steps to copy the s
 
 To run, simply type `gulp`
 NB - NPM will install gulp as part of the overall install.
-However, it if hasn't altered the system path, Gulp can be found in node_modules\.bin\gulp.exe
+However, it if hasn't altered the system path, Gulp can be found in `node_modules\.bin\gulp.exe`
 
 
 ## Overview
@@ -41,7 +40,7 @@ All the same .. I did it enjoy it very much and I'm pretty happy with the result
 ## Limitations
 
 The requirements document stated that whilst not time limited, a sample time of 3-4 hours should be aimed for.
-In all honesty (and lightheatedly) .. I think God would struggle at 3-4 hours but to an extent that might be down to intepretation of the requirements
+In all honesty (and lightheartedly) .. I think God would struggle at 3-4 hours but to an extent that might be down to interpretation of the requirements
 The test stated that not all requirements were required up front and could be tackled in an agile manner.
 As a result, I focused on getting the app to a well programmed state which was workable, reliable and easy to use.
 
